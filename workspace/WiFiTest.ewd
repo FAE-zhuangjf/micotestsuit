@@ -3,7 +3,7 @@
 <project>
   <fileVersion>2</fileVersion>
   <configuration>
-    <name>Whirepool-Washer</name>
+    <name>WiFiTest</name>
     <toolchain>
       <name>ARM</name>
     </toolchain>
@@ -81,7 +81,7 @@
         </option>
         <option>
           <name>OCProductVersion</name>
-          <state>7.10.1.6733</state>
+          <state>7.30.3.8061</state>
         </option>
         <option>
           <name>OCDynDriverList</name>
@@ -97,7 +97,7 @@
         </option>
         <option>
           <name>UseFlashLoader</name>
-          <state>1</state>
+          <state>0</state>
         </option>
         <option>
           <name>CLowLevel</name>
@@ -763,7 +763,7 @@
         </option>
         <option>
           <name>JLinkInitialSpeed</name>
-          <state>32</state>
+          <state>1000</state>
         </option>
         <option>
           <name>CCDoJlinkMultiTarget</name>
@@ -1317,7 +1317,7 @@
       </plugin>
       <plugin>
         <file>$TOOLKIT_DIR$\plugins\rtos\OpenRTOS\OpenRTOSPlugin.ewplugin</file>
-        <loadFlag>1</loadFlag>
+        <loadFlag>0</loadFlag>
       </plugin>
       <plugin>
         <file>$TOOLKIT_DIR$\plugins\rtos\Quadros\Quadros_EWB7_Plugin.ewplugin</file>
